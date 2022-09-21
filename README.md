@@ -28,7 +28,7 @@ Get all numbers area
 
 ## Step 3
 
-![parse-number-from-area](./docs/images/parse-number-from-area.gif)
+![parse-numbe](./docs/images/parse-number.gif)
 
 ```bash
 python parse_number_from_area.py
