@@ -9,7 +9,7 @@ height = 1080
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 video = cv2.VideoWriter('video.mp4', fourcc, 1, (width, height))
 
-for i in range(60):
+for i in range(5):
   print(f"frame_count >> {i}")
   pic = pyautogui.screenshot(region=(0, 0, width, height))
   image_frame = np.array(pic)
