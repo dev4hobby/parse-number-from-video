@@ -1,5 +1,18 @@
 # Parse numeric character from video
 
+## Requirements
+
+```bash
+# Install Tesseract
+brew install tesseract
+# Optional (Language pack)
+brew install tesseract-lang 
+
+# Install pytesseract package
+pip install pytesseract
+```
+
+
 ## Target video
 
 ![full-screen-image](./docs/images/full-screen.png)
